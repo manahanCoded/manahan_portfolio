@@ -527,5 +527,6 @@ b span{
     }
     .contact__input{
         margin-left: 0;
+        font-size: medium;
     }
 }
