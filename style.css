@@ -84,6 +84,20 @@ b span{
         overflow-y: hidden;
         overflow-x: hidden;
     }
+    .main{
+        margin: 10px;
+    }
+    b{
+    
+        font-size: 25px;
+    }
+    b span{
+ 
+        font-size: 25px;
+    }
+    .navbar i{
+        font-size: 25px;
+    }
     .navbar__link{
         display: flex;
         align-items: center;
@@ -290,6 +304,20 @@ b span{
 .card-body h5{
     font-weight: bold;
 }
+@media screen and (max-width: 768px){
+    .card{
+        padding: 0;
+        gap: 0px;
+
+    }
+    .card img{
+        padding: 0;
+        filter: drop-shadow(0 0 0.75rem rgb(158, 153, 154));
+    }
+    .project{
+        padding: 10px;
+    }
+}
 /*About*/
 .about{
     padding: 8rem calc((100vw - 1200px)/2);
@@ -465,7 +493,7 @@ b span{
     filter: drop-shadow(0 0 0.75rem rgb(158, 153, 154));
 }
 #contact__card{
-
+    
     filter: drop-shadow(0 0 0.75rem rgb(158, 153, 154));
 }
 .contact__img form{
@@ -505,8 +533,8 @@ b span{
 .contact__input{
     background-color: white;
     border-radius: 20px;
-    height: 80%;
     width: 80%;
+    height: 80%;
     margin: 30px;
     margin-left: 50px;
     
@@ -526,7 +554,14 @@ b span{
         font-size: clamp(1rem, 5vw, 1.2rem);
     }
     .contact__input{
-        margin-left: 0;
-        font-size: medium;
+        margin: 0;
+        font-size: small;
+        height: 100%;
+        width: 100%;
+    }
+    .contact{
+        margin: 20px;
+        border-radius: 30px;
+        filter: drop-shadow(0 0 0.75rem rgb(158, 153, 154));
     }
 }
